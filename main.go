@@ -14,3 +14,7 @@ func main() {
 	name := os.Args[1]
 	fmt.Printf("Hello, %s!\n", name)
 }
+
+func Greet(name string) {
+	fmt.Printf("Hello, %s from my-cli-tool!\n", name)
+}
